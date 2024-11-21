@@ -1,5 +1,5 @@
 # Python program for simple calculator
-# Function to add two numbers
+# Function to add 2 numbers
 def add(nu1, nu2):
   return nu1 + nu2
 
@@ -7,11 +7,11 @@ def add(nu1, nu2):
 def subtract(nu1, nu2):
   return nu1 - nu2
 
-# Function to multiply two numbers
+# Function to multiply 2 numbers
 def multiply(nu1, nu2):
   return nu1 * nu2
 
-# Function to dvide thoo numbers
+# Function to dvide 2 numbers
 def divide(nu1, nu2):
   return nu1 / nu2
 
