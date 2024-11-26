@@ -24,3 +24,29 @@ c = "!..NeoN..! !..RocK..! !..JacK..!"
 
 # Split the string into a list using spaces as the delimiter
 print(c.split(" ")) 
+
+blogHeading = "introduction tO Js:"
+print(blogHeading.capitalize())
+
+word = "Welcome in my world"
+print(len(word))
+print(word.center(50))
+print(len(word.center(50)))
+
+print(c.count("NeoN"))
+
+nu = "Welcome to console !!!"
+print(nu.endswith("!!!"))
+
+sentence = "Hello everyone, there is ns."
+print(sentence.find("isan"))
+# print(sentence.index("isah")) # this will find given word if that will not found. it will throw error and script will be stop.
+
+sentence = "We wish you Happy Birthday"
+print(sentence.isprintable())
+
+sentence = "We wish you Happy Birthday\n"
+print(sentence.isprintable())
+
+sentence = "Hi, How are you?"
+print(sentence.title())
