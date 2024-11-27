@@ -26,3 +26,13 @@ elif(a >= 40):
     print("It is more than half of your salary.")
 else:
     print("Don't Buy.")
+
+if(a >= 40):
+    if (a <= 60):
+        print("it's okay you can buy.")
+    elif (a <= 80):
+        print("You can buy easily.")
+    else:
+        print("buy buy buy")
+else:
+    print("Don't Buy.")
