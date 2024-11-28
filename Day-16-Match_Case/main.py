@@ -6,8 +6,7 @@ match x:
         print("x is zero")
     # case with if condition
     case 4:
-        print("case is 4")
-    
+        print("case is 4")  
     case 3:
         print("case is 3")
     case _ if x!=90:
