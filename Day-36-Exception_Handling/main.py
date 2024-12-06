@@ -38,5 +38,13 @@ try:
 #     print(e)
 except:
     print(f"Invaild input {b}!!!!")
+#########################################################
+# We can also use this for handling the specific error.
+# and I have commented these below lines because these both work at same time. but not working with above "except" condtion.
+# except IndexError:
+#     print("IndexError")
+# except ValueError:
+#     print("Number entered is not an integer.")
+############################################################
 
 print("\nSome line of another code.\nEnd of program")
