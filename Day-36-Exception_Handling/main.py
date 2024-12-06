@@ -19,6 +19,7 @@ else:
 # Another Program::======================>>>>
 # We can use this program when we don't want to stop our program with error in one command or any case. 
 # If trriger any error. Than we can just print the error or any output and continue other program without any interption.
+# So now we are going to use for this Try and except condition.
 
 b = input("Enter the Another number: ")
 print(f"Multiplication table of Antoher number {b} is: ")
