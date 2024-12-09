@@ -37,24 +37,23 @@ else:
         print(f"{b} X {i} = {ans:.4f}")
 
 #========================================================
-# b = input("Enter the Another number: ")
-# print(f"Multiplication table of Antoher number {b} is: ")
-# try: 
-#     if b.isdigit():
-#         print("you are in if part of another program===========>")
-#         for i in range(11):
-#             print(f"{int(b)} X {i} = {int(b)*i}")
+b = input("Enter the Another number: ")
+print(f"Multiplication table of Antoher number {b} is: ")
+try: 
+    if b.isdigit():
+        print("you are in if part of another program===========>")
+        for i in range(11):
+            print(f"{int(b)} X {i} = {int(b)*i}")
 
-#     # else a.isdecimal():
-#     else:
-#         print("you are in else part of another program============>")
-#         for i in range(11):
-#             # print(f"{float(b)} X {i} = {float(b)*i:.2f}")
-#             print(float(b), "X", i, round((b * i), 2))
-# # except Exception as e:
-# #     print(e)
-# except:
-#     print(f"Invaild input {b}!!!!")
+    # else a.isdecimal():
+    else:
+        print("you are in else part of another program============>")
+        for i in range(11):
+            print(f"{float(b)} X {i} = {float(b)*i:.2f}")
+# except Exception as e:
+#     print(e)
+except:
+    print(f"Invaild input {b}!!!!")
 #====================================================
 #########################################################
 # We can also use this for handling the specific error.
