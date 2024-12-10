@@ -28,7 +28,7 @@ for i in range(0, len(Question)):
         elif i == 6:
             Money = Level[i]
         elif i == 9:
-            print(f"Congratulations....!, your take home money is Rs. {Level[i]}")
+            print(f"\n\nCongratulations....!, your take home money is Rs. {Level[i]}")
     elif reply == "0":
         print(f"You quit now and Your take home money is Rs. {Level[i-1]} ")
         break
