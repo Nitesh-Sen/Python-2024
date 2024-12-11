@@ -1,0 +1,2 @@
+import nii
+nii.welcome()
