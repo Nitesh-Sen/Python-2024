@@ -13,8 +13,12 @@ while True:
     print(f"Marks of student {i} in SK is: {m3}")
     print(line)
 
+
+
+
 # This will be create a new line and add the following content in there.
 f = open('file2.txt', 'w')
 lines = ['line 1\n', 'line 2\n', 'line 3\n']
 f.writelines(lines)
 f.close()
+
