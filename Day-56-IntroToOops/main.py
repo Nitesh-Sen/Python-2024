@@ -10,3 +10,12 @@ a.name = "Riyan Gupta"
 a.occupation = "Software Engineer"
 # print(a.name, a.occupation)
 a.info()
+print()
+
+b = Person()
+b.name = "Nitika Bhajwa"
+b.occupation = "HR"
+b.info()
+print()
+
+c = Person()
