@@ -24,7 +24,9 @@ while i < 10:
                 print("You Loose..!")
                 botPoint = botPoint + 1
         else:
-            print("Invalid Input...!")
+            txt = ("Invalid Input...! -------> Try Again <---------")
+            txt = txt.center(150)
+            print(txt)
     else:
         print("Invalid input. Please enter valid Number.")
 
